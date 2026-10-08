@@ -11,7 +11,9 @@ This repository aims to provide macOS ISOs for security researchers, developers,
 NOTE: If running an AMD processor, edit the .vmx file in the folder you specified for the VM, add the following to the bottom of the file and save your changes
 
 smc.version = "0"
+
 cpuid.0.eax = "0000:0000:0000:0000:0000:0000:0000:1011"
+
 cpuid.0.ebx = "0111:0101:0110:1110:0110:0101:0100:0111"
 cpuid.0.ecx = "0110:1100:0110:0101:0111:0100:0110:1110"
 cpuid.0.edx = "0100:1001:0110:0101:0110:1110:0110:1001"
